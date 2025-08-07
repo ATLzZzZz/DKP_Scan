@@ -103,7 +103,7 @@ Hey there, I'm <a href="https://www.linkedin.com/in/harismuneer/">Haris Muneer</
 </p>
 
 
-
+// Ini adalah komentar untuk memicu analisis SonarCloud
 <!-- PROFILE_INTRO_END -->
 
 
