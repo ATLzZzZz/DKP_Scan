@@ -16,4 +16,8 @@ jobs:
       - name: SonarQube Scan
         uses: SonarSource/sonarqube-scan-action@v5
         env:
-          SONAR_TOKEN: ${{ 211aba4234f9b8e1e6e1956e62dae967a3f5fbcb }}
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }} # Mengambil token dari GitHub Secrets
+        with:
+          args: > # Menambahkan argumen wajib
+            -Dsonar.organization=nama-organisasi-anda
+            -Dsonar.projectKey=kunci-proyek-anda
